@@ -8,22 +8,22 @@ var bt4 = document.getElementById("choose_chaper_4");
 
 
 bt1.addEventListener("click" , function() {
-    window.open("http://127.0.0.1:5500/Time_work.html" );         //Adders to Time and work question....
+    window.open("http://127.0.0.1:5500/Time_work.html" );         //Address to Time and work question....
     
 });
 
 bt2.addEventListener("click" , function() {
-    window.open("http://127.0.0.1:5500/probability_html.html" );       //Adders to probability question....
+    window.open("http://127.0.0.1:5500/probability_html.html" );       //Address to probability question....
     
 });
 
 bt3.addEventListener("click" , function() {
-    window.open("http://127.0.0.1:5500/Age_html.html" );           //Adders to age question....
+    window.open("http://127.0.0.1:5500/Age_html.html" );           //Address to age question....
      
 });
 
 bt4.addEventListener("click" , function() {
-    window.open("http://127.0.0.1:5500/Profit_and_loss_html.html" );         //Adders to  Profit and loss question....
+    window.open("http://127.0.0.1:5500/Profit_and_loss_html.html" );         //Address to  Profit and loss question....
     
 });
 
