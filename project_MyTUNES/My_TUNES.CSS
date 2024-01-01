@@ -1,0 +1,386 @@
+*{     
+   margin: 0;    
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#navBar {
+    
+    width: 100%;   
+    height: 42px;
+     
+    
+}
+
+#navList {                           
+    
+    align-items: center;  /* use to set text in center on webpage  */
+    background-color: rgb(63, 63, 63);   /* to set background color */
+    padding-bottom: 12px;   /* use to set padding in bottom */
+    position: fixed;  /* use to fixed in web page */
+    z-index: 7;    /* it defines visibility in z-axis */
+    
+    
+   
+    
+}
+#navList li {
+    list-style: none;   /* use to  remove default list style  */
+    padding-top: 10px;  
+    z-index: 7;    /* it defines visibility in z-axis */
+    
+}
+
+
+
+
+#navList li a {
+    text-decoration: none;    /* use to remove default link style */
+    color: white;
+    font-size: 15px;   /* to set font size */
+    font-family: sans-serif;    /* to set  font style */
+    padding: 20px 34px 13px 20px ;   /* to set paddiing  Top, Right, Bottom and left  */
+    z-index: 7;   /* it defines visibility in z-axis */
+    
+}
+#navList li a:hover {    /*  used for, when we put mouse cursor(hover) on this element, that time we will see some style */
+    background-color: rgb(91, 91, 91);  
+    padding-bottom: 17px; 
+    
+    
+}
+
+#NavImg_div {
+    text-align: center;   /* use to put text on center */
+    
+}
+
+#NavImg {
+    width: 1537px;
+    height: 800px;
+}
+#NavImg_heading_1 {
+    position: absolute;   /*  to set position of an element */
+    bottom: 449px;   /*  set how much distance form bottom */
+    left: 597px;    /*  used to set how much distance form left  */
+    color: white;    /*  to set font color */
+    font-size: 70px;   /* to set font size */
+    font-family: sans-serif;   /* to set font style */
+    text-align: center;     /* use to set text in center on webpage  */
+}
+#NavImg_heading_2 {
+   position: absolute ;   /*  to set position of an element */
+   bottom: 298px;
+   left: 431px;
+   color: white;  /*  to set font color */
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 34px;
+}
+#NavImg_paragraph {
+    position: absolute;   /*  to set position of an element */
+    left: 83px;
+    top: 477px;
+    color: white;  /*  to set font color */
+    font-family: sans-serif;
+    font-size: 23px;
+    line-height: 48px;
+    
+
+}
+
+/*  Music div area...................................................................................... */
+
+#music_img_div {
+    background-color: rgb(37, 37, 41);
+    height: 1441px;
+    width: 1537px;
+    position: absolute;    /*  to set position of an element */
+    top: 799px; 
+
+}
+#music_img {
+    width: 1160px;
+    position: absolute;     /*  to set position of an element */
+    top: 619px;
+    left: 200px;
+}
+#music_img_heading_1 {
+    color: white;   /*  to set font color */
+    font-family: sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    font-size: 50px;
+}
+#music_img_heading_2 {
+    color: white;    /*  to set font color */
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 206px;
+    left: 488px;
+    font-size: 34px;
+}
+#music_img_paragraph {
+    color: white;    /*  to set font color */
+    font-family: sans-serif;
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    text-align: center;
+    left: 180px;
+    line-height: 40px;
+    
+}
+#Music_logo_img {
+    width: 50px;
+    position: absolute;
+    top: 102px;
+    left: 639px;
+}
+#start_trial {
+    text-decoration: none;
+    color: white;   /*  to set font color */
+    position: absolute;
+    top: 457px;
+    left: 651px;
+    background-color: rgb(144, 0, 0);
+    padding: 20px;
+    font-family: sans-serif;
+}
+#device_accessibility {
+    color: white;
+    position: absolute;    /*  to set position of an element */
+    top: 587px;
+    left: 504px;
+}
+
+ 
+
+/*  details div area ........................................................*/
+
+ #details {
+    width: 1537px;
+    height: 1114px;
+    background-color: rgb(243, 243, 243);
+    
+    position: absolute;     /*  to set position of an element */
+    top: 2240px;
+    
+    
+ }
+
+ #details_img {
+    width: 960px;
+    height: 800px;
+    position: absolute;     /*  to set position of an element */
+    top: 282px;
+    left: 285px;
+
+ }
+ #details_heading {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #252525;
+    position: absolute;    /*  to set position of an element */
+    top: 65px;
+    left: 330px;
+ }
+ #details_paragraph {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    position: absolute;     /*  to set position of an element */
+    top: 132px;
+    left: 165px;
+ }
+
+ #details_read_more_link {
+    text-decoration: none;
+    background-color: rgb(1, 1, 124);
+    color: white;
+    padding: 10px;
+    position: absolute;   /*  to set position of an element */
+    top: 225px;
+    left: 731px;
+ }
+
+
+ /*  Environment area................................................... */
+
+ #Entertainment_img {
+    position: absolute;    /*  to set position of an element */
+    top: 3354px;
+    width: 1537px;
+    height: 515px;
+ }
+
+ #Entertainment_heading {
+    position: absolute;    /*  to set position of an element */
+    top:3573px;
+    left: 365px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+ }
+
+ #Entertainment_paragraph {
+    position: absolute;     /*  to set position of an element */
+    top:3643px;
+    left: 80px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+
+    /*  Gift cards area.................................................................................. */
+
+ }
+ #Gift_card_div {
+    position: absolute;    /*  to set position of an element */
+    width: 1537px;
+    height: 450px;
+    top:3868px;
+
+    background-color: rgb(251, 251, 251)
+    
+    
+ }
+
+ #Gift_card_img {
+    position: absolute;  /*  to set position of an element */
+    width: 400px;
+    height: 400px;
+    top:29px;
+    left: 213px;
+    
+    
+
+ }
+
+ #gift_card_heading {
+    color: black;
+    position: absolute; 
+    left: 708px;
+    top: 64px;
+    font-size: 29px;
+    font-family: sans-serif;
+ }
+
+ #gift_card_paragraph_1 {
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    top: 131px ;
+    left: 708px ;
+    line-height: 36px;
+ }
+
+ #gift_card_paragraph_2 {
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    top: 292px ;
+    left: 708px ;
+
+ }
+
+ #Gift_card_underline {
+    position: absolute;
+    width: 609px;
+    height: 1px;
+    background-color: black;
+    left: 707px;
+    top: 338px;
+
+ }
+
+ #arrow_logo {
+    position: absolute;
+    width: 10px;
+    height: 13px;
+    left: 721px;
+    top: 366px;
+
+ }
+
+ #gift_card_redeem {
+    color: black;
+    position: absolute;
+    height: 21px;
+    left: 736px;
+    top: 364px;
+    font-family: sans-serif;
+
+ }
+
+
+ /*  footer div area........................................... */
+
+ #footer_div {
+    position: absolute;
+    width: 1537px;
+    height: 448px;
+    background-color: rgb(51, 51, 51);
+    top: 4317px;
+    display: flex;
+ }
+ #footer_table_div  {
+    display: flex;
+    margin-left: 210px;
+    margin-top: 77px;
+ }
+ #footer_table_div ul {
+    margin-right: 170px;
+ }
+ #footer_table_div ul li {
+    list-style: none;
+ }
+
+ #footer_table_div ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    line-height: 31px;
+
+ }
+
+ #footer_table_div ul li p {
+    font-size: 21px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    color: white;
+    
+ }
+
+  #footer_table_div ul div {
+    width: 227px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 113px;
+ }
+
+
+ /*  copyright div area.......................................................... */
+
+ #copy_right_div {
+   position: absolute;
+   top: 4705px ;
+   width: 1537px;
+   height: 60px;
+   background-color: rgb(68, 68, 68);
+   text-align: center;
+ }
+
+ #copy_right_div p {
+   color: white;
+   font-family: sans-serif;
+   margin-top: 20px; 
+   
+ }
+
+
+
+ 
