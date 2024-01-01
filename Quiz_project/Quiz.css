@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 1rem;
+    width: 40%;                   
+    height: 37rem;
+    border: 1px solid;                           /* mian div  */
+    margin: auto;
+    margin-top: 5%;
+   
+  
+}
+
+.Testbook_Logo {
+    width: 5rem;
+    height: 5rem;                                   /*  test book logo  */
+    margin:  auto;
+    margin-top: 2rem;
+    background-image: url("https://play-lh.googleusercontent.com/oZKb4MS_3fA2URqyMW2QvWqm7Bhjikz_L8002o4VLpIfVUmcVXZUa1OI0r5QS_8b3XA");
+    background-size: cover;
+    background-size: 100%;
+}
+input{
+    padding:0.5rem;
+    letter-spacing: 1px;                  /* input from user  */
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+
+#name_input_button {
+  padding: 0.6rem;
+  background-color: rgb(0, 190, 253);                     /* click to user name save */
+  border: 0px; color: white;
+  border-radius: .2rem;
+
+}
+
+
+#name_input_button:hover {
+    background-color: blue;
+   
+}
+
+.chapter_btn {
+    width: 80%;
+    height: 9rem;
+    
+    margin: auto;
+    margin-top: 2.9rem;
+    position: relative;
+}
+
+.chapter_btn button {
+    padding: 1rem;
+    width: 40%;
+    border-radius: .6rem;
+    border-color: lightblue;
+    border: 0;
+    background-color: rgb(55, 176, 216);
+    color: white;
+  
+}
+
+.chapter_btn button:hover {
+
+    background-color: blue;
+   
+  
+}
+
+

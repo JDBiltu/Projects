@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz.css">
+    <title>QUIZ WEB</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Testbook_Logo"></div>            <!-- testbook................. logo.............................  --> 
+        <h1 style="text-align: center; color: rgb(72, 1, 138); font-size: 1.5rem; margin-top: 1.4rem;">Hello user!</h1 >
+        <p style="text-align: center; margin-top: 1rem;">Enter your name to continue the Quiz.</p>
+        <div class="input_user_name">        <!-- here user input ................... name  --> 
+            <input id="inputName" required style="margin: 1rem 0 0 4rem; width: 70%;outline: 0px;" type="text" placeholder="Enter Your Name....">
+            <button onclick="getName()" id="name_input_button">ENTER</button>  <!--click to .......... get user name.........................  --> 
+        </div>
+          <p style="text-align: center;margin-top: 1.2rem;">You will have 10 seconds to answer each question</p>
+          <div style="width: 80%;height:1px;margin: auto; ; margin-top: 1.2rem; background-color: rgb(116, 116, 116);">
+        </div>
+        <h2 style="text-align: center;margin: 1.2rem;font-weight: 100 ;color: rgb(75, 75, 239);">Select Category</h2>
+        
+        <div class="chapter_btn">  <!-- Address buttons............................................  --> 
+            <button  style="position: absolute; top: 0; margin:1rem ; margin-left: 1.3rem;"  id="choose_chaper_1">Time And Work</button>
+            <button  style="position: absolute;right: 0; margin:1rem ; margin-right: 1.3rem;" id="choose_chaper_2"  >probability</button>
+            <button style="position: absolute;bottom: 0; margin:1rem ; margin-left: 1.3rem;"  id="choose_chaper_3">Problems On Ages</button>
+            <button style="position: absolute;right:0; bottom:0; margin:1rem ; margin-right: 1.3rem;"  id="choose_chaper_4">Profit And Loss</button>
+        </div>
+        
+        
+    </div>
+
+ 
+
+
+
+
+
+
+    
+
+    <script src="Quiz_js.js" ></script>
+   
+  
+
+</body>
+</html>

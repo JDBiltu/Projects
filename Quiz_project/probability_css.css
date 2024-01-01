@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.3vmax;
+ }
+ 
+    
+ .container {
+    border-radius: 1rem;
+    width: 40%;
+    height: 45vmax;                         /*  main div .......................................................... */
+    border: 1px solid;
+    margin: 2vmax auto;
+    /*   vmax   ,     vmin   */
+    /* margin-top: 5%; */
+ }
+ 
+ ._timer_div {
+    width: 13%;
+    /* height: 4vmax; */
+    padding: 1.4vmax;                   /*   timer  .... div .......................................................... */
+    text-align: center;
+    border: 1px solid;
+    margin: 2.4vmax;
+    border-radius: 50%;
+    float: left;
+ }
+ 
+ .score_div {
+    float: right;
+    margin: 3vmax;                              /*  score div......................................................... */
+ }
+ 
+ .score_div>label {
+    font-size: 1.7vmax;
+ }
+ 
+ .score_div>p {
+    font-size: 1.7vmax;
+ }
+ 
+ .track_question_div {
+    width: 15%;
+    padding: 1.4vmax;
+    text-align: center;
+    margin: auto;                               /*   NO OF  question  .......................................................... */
+    height: 13%;
+    border: 1px solid;
+    border-radius: 50%;
+    /* margin-bottom: 0; */
+    position: relative;
+    top: 5%;
+    z-index: 5;
+    background-color: aqua;
+ }
+ 
+ .track_question_div>p {
+    text-align: center;
+    /* margin-top: 1vmax; */
+                                                 /*   NO OF  question  text .......................................................... */
+    font-size: 1.5rem;
+ }
+ 
+ .down_part {
+    /* width: 80%;
+    height: 68%; */
+    /* border: 1px solid; */
+    /* margin: auto; */
+    /* margin-top: 2rem; */
+ }
+ 
+ .quiz {
+    /* width: 96%;
+         height: 20%; */
+    /* border: 1px solid; */
+    /* margin: auto; */
+    /* display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center; */
+    /* text-align: center; */
+ }
+ 
+ 
+ #question {
+    text-align: left;
+    width: 95%;
+    margin: 5vmax 2vmax;
+    /* margin-left: 1rem; */
+ }
+ 
+ #answer_buttons {
+    width: 80%;
+    height: 33%;
+    border: 1px solid;
+    margin: auto;                                    
+    /* margin-top: 35%; */
+    cursor: pointer;
+ }
+ 
+ 
+ .btn {
+    width: 30%;
+    padding: 2%;
+    height: 30%;
+    margin: 2rem;
+    margin-left: 2.4rem;                                /*   button css .......................................................... */
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: lightblue;
+    border: 0;
+    cursor: pointer;
+ }
+ 
+ 
+ .btn:hover {
+    background-color: rgb(179, 178, 178);
+ 
+ 
+ }
+ 
+ #next_btn,#skip_btn,#go_home {
+    width: 20%;
+    padding: 1%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: 38%;
+    background-color: lightblue;
+    border: 0;
+    cursor: pointer;
+ }
+ #next_btn{
+   display: none;
+   cursor: pointer;
+ }
+ #skip_btn{
+   display:block;
+
+ }
+ #go_home {
+    display: none;
+ }
+ 
+ 
+ #next_btn:hover {
+    background-color: rgb(179, 178, 178);      /*.........set wheneven we hover ,that time what will happand................ */
+ 
+ }
+ 
+ .correct {
+    background-color: lightgreen;                   /*  set when user click right answer............... */
+ 
+ }
+ 
+ .incorrect {
+    background-color: lightcoral;                   /*  set when user click worng answer............... */
+ 
+ }
